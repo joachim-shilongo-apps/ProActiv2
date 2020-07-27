@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:id="@+id/postfragmentlayoutRelativeLayout1">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/post_profile"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="15dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/post_profile"
+            android:layout_marginTop="15dp"
+            android:textColor="#151515"
+            android:id="@+id/post_profile_name"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:text="Go ahead and post, we are Listenning!"
+            android:layout_below="@id/post_profile_name"
+            android:layout_margin="15dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@id/postfragmentlayoutRelativeLayout1"
+        android:background="#F6F6F6">
+
+        <EditText
+            android:layout_height="70dp"
+            android:inputType="textMultiLine"
+            android:layout_width="250dp"
+            android:ems="10"
+            android:layout_centerHorizontal="true"
+            android:background="#D4DCDC"
+            android:layout_margin="15dp"
+            android:id="@+id/blogEditText"
+            android:hint="Write here..."/>
+
+        <Button
+            android:id="@+id/blogSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/blogEditText"
+            android:layout_centerHorizontal="true"
+            android:background="@color/sky_bue"
+            android:text="Post"
+            android:textColor="#FFFFFF" />
+
+        <View
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:layout_below="@id/blogSend"
+            android:layout_marginTop="10dp"
+            android:background="#762020"/>
+
+        <ImageView
+            android:id="@+id/attach"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="30dp"
+            android:layout_toLeftOf="@id/blogEditText"
+            android:src="@android:drawable/btn_plus"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/select_from_camera"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_below="@id/attach"
+            android:layout_marginTop="7dp"
+            android:layout_toLeftOf="@id/blogEditText"
+            android:background="@drawable/attach_img" />
+
+    </RelativeLayout>
+
+    <View
+        android:background="?android:attr/dividerVertical"
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:layout_below="@id/postfragmentlayoutRelativeLayout1"/>
+
+</RelativeLayout>
+

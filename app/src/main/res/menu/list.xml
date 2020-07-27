@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"
+        android:checked="true"
+        android:iconTint="@color/sky_bue"/>
+
+    <item
+        android:id="@+id/medicalbottom"
+        android:icon="@drawable/doctor"
+        android:title="Medical"
+        android:iconTint="@color/sky_bue"/>
+
+    <item
+        android:id="@+id/cont"
+        android:icon="@drawable/phone_24px"
+        android:title="Contact"
+        android:iconTint="@color/sky_bue"/>
+    <item
+    android:id="@+id/profile_bottom"
+    android:icon="@drawable/user_profile"
+    android:title="Profile"
+    android:iconTint="@color/sky_bue"/>
+
+</menu>

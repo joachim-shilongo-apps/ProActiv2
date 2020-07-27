@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_bg_light"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="1dp"
+        app:contentPadding="6dp">
+
+        <RelativeLayout
+            android:id="@+id/editImageBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <EditText
+                android:id="@+id/caption_to_be_posted_in_main_feed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_to_be_posted_in_main_feed"
+                android:gravity="center_horizontal"
+                android:hint="Write your caption here..." />
+
+            <ImageView
+                android:id="@+id/image_to_be_posted_in_main_feed"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/healthy" />
+
+            <com.ekalips.fancybuttonproj.FancyButton
+                android:id="@+id/post_image_to_main_feed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/caption_to_be_posted_in_main_feed"
+                app:f_btnStyle="stroke"
+                app:f_progressColor="@color/colorAccent"
+                app:f_strokeColor="@color/colorAccent"
+
+                app:f_text="Post"
+                app:f_textColor="@color/colorAccent"
+                app:f_textSize="15sp">
+
+            </com.ekalips.fancybuttonproj.FancyButton>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

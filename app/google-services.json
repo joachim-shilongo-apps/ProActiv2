@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "31723660641",
+    "firebase_url": "https://homespital-f7173.firebaseio.com",
+    "project_id": "homespital-f7173",
+    "storage_bucket": "homespital-f7173.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31723660641:android:58cfbe2da66f0719931120",
+        "android_client_info": {
+          "package_name": "blackfundamente.joachim.shilongo.virtualhealthcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31723660641-11si7pd9ficd95vb0otr78bmgsoi3ll2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "blackfundamente.joachim.shilongo.virtualhealthcare",
+            "certificate_hash": "d1672ac4bbbc6b121fd2c74107c960f27717581c"
+          }
+        },
+        {
+          "client_id": "31723660641-dvsocc5ksbmus3g61fcumjabvaqe4l1r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "blackfundamente.joachim.shilongo.virtualhealthcare",
+            "certificate_hash": "f9101bb589c9436153c293ae3260c0f3cbb334f9"
+          }
+        },
+        {
+          "client_id": "31723660641-jn7cgnsgk7o41qgq2o6ja1c4s0jor1n2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDn9CJsmaMEH78w14hAWqs2dM_ubVVUY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31723660641-jn7cgnsgk7o41qgq2o6ja1c4s0jor1n2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
